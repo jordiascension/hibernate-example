@@ -25,7 +25,7 @@ public class AlumnoDao {
 			.getLogger(AlumnoDao.class.getName());
 
 	private final SessionFactory sessionFactory = new HibernateSessionFactory()
-			.getSessionFactory("hibernate-heroku.cfg.xml");
+			.getSessionFactory("hibernate.cfg.xml");
 
 	// https://www.baeldung.com/hibernate-save-persist-update-merge-saveorupdate
 	// https://www.javacodegeeks.com/2012/09/hibernate-save-vs-persist-and.html#:~:text=Difference%20between%20save%20and%20saveOrUpdate%20in%20Hibernate,based%20upon%20existence%20of%20record.
